@@ -3,9 +3,9 @@
 /**
  * main - Entry point 
  *
- * Retun: Always 0 (Succes)
+ * Return: Always 0 (Succes)
  */
-int main (void)
+int main(void)
 {
 	int a;
 	long int b;
