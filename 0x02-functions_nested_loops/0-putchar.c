@@ -3,8 +3,8 @@
 
 int main (void)
 {
-	char word = "_putchar";
-	_putchar(word);
+	char *wrd = "_putchar";
+	_putchar(*wrd);
 	_putchar('\n');
 	return(0);
 }
