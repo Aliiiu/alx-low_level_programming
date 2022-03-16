@@ -3,7 +3,8 @@
 
 int main (void)
 {
-	_putchar('_putchar');
+	char word = "_putchar"
+	_putchar(word);
 	_putchar('\n');
 	return(0);
 }
