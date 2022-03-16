@@ -4,7 +4,11 @@
 int main (void)
 {
 	char *wrd = "_putchar";
-	_putchar(*wrd);
+	while(*wrd)
+	{
+		_putchar(*wrd);
+		sh++;
+	}
 	_putchar('\n');
 	return(0);
 }
