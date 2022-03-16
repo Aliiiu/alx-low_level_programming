@@ -7,7 +7,7 @@ int main (void)
 	while(*wrd)
 	{
 		_putchar(*wrd);
-		sh++;
+		wrd++;
 	}
 	_putchar('\n');
 	return(0);
