@@ -9,12 +9,9 @@
 char *_strchr(char *s, char c)
 {
 	unsigned int i;
-	i = 0;
-	while (*(s+i) != '\0')
-	{
-		if (*(s+i) == c)
-			return((s+i));
-		i++;
-	}
+	
+	for (i = 0; *(s + 1) != '\0'; i++)
+		if (*(s + i) == c)
+			return (s + i);
 	return ('\0');
 }
