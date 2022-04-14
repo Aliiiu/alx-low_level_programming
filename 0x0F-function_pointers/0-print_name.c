@@ -1,5 +1,4 @@
 #include <stdlib.h>
-#include "function_pointers.h"
 /**
  * print_name - a function that prints a nameint n = sizeof(arr)/sizeof(arr[0])
  * @name: pointer to name to print
