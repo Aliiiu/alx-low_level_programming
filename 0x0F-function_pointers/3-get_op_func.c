@@ -8,6 +8,8 @@
  * Return: a pointer to the function that corresponds to the
  * operator given as a parameter.
  */
+int (*get_op_func(char *s))(int, int);
+
 typedef struct op
 {
 	char *op;
